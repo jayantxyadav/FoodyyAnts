@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodyAnts - Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span>FoodyAnts</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Gallery Hero Section -->
+    <div class="page-hero gallery-hero">
+        <div class="page-hero-content">
+            <h1>Our Gallery</h1>
+            <p>A visual feast of our culinary creations and ambiance</p>
+        </div>
+    </div>
+
+    <!-- Gallery Filter -->
+    <div class="gallery-filter">
+        <div class="container">
+            <ul class="filter-buttons">
+                <li class="filter-btn active" data-filter="all">All</li>
+                <li class="filter-btn" data-filter="food">Food</li>
+                <li class="filter-btn" data-filter="ambiance">Ambiance</li>
+                <li class="filter-btn" data-filter="events">Events</li>
+                <li class="filter-btn" data-filter="behind-scenes">Behind the Scenes</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="gallery-items">
+                <!-- Food Images -->
+                <div class="gallery-item food">
+                    <img src="/api/placeholder/400/300" alt="Tandoori Mushroom Risotto">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Tandoori Mushroom Risotto</h3>
+                            <p>Our signature fusion dish</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item food">
+                    <img src="/api/placeholder/400/300" alt="Butter Chicken">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Butter Chicken</h3>
+                            <p>Classic North Indian delicacy</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item food">
+                    <img src="/api/placeholder/400/300" alt="Mango Cheesecake">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Mango Tango Cheesecake</h3>
+                            <p>A sweet tropical delight</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item food">
+                    <img src="/api/placeholder/400/300" alt="Paneer Tikka">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Paneer Tikka</h3>
+                            <p>Grilled to perfection</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item food">
+                    <img src="/api/placeholder/400/300" alt="Chocolate Lava Cake">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Chocolate Lava Cake</h3>
+                            <p>Decadent dessert with molten center</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item food">
+                    <img src="/api/placeholder/400/300" alt="Grilled Salmon">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Grilled Salmon</h3>
+                            <p>Fresh and flavorful seafood</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ambiance Images -->
+                <div class="gallery-item ambiance">
+                    <img src="/api/placeholder/400/300" alt="Restaurant Interior">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Main Dining Area</h3>
+                            <p>Elegant and comfortable seating</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item ambiance">
+                    <img src="/api/placeholder/400/300" alt="Outdoor Seating">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Outdoor Garden Seating</h3>
+                            <p>Dine under the stars</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item ambiance">
+                    <img src="/api/placeholder/400/300" alt="Bar Area">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>The Lounge</h3>
+                            <p>Enjoy our signature mocktails</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item ambiance">
+                    <img src="/api/placeholder/400/300" alt="Private Dining Room">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Private Dining Room</h3>
+                            <p>Perfect for special occasions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Events Images -->
+                <div class="gallery-item events">
+                    <img src="/api/placeholder/400/300" alt="Birthday Celebration">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Birthday Celebration</h3>
+                            <p>Creating memorable moments</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+         <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>FoodyAnts</h2>
+                <p>Taste Once, Remember Forever</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                <p><i class="fas fa-envelope"></i> contact@foodyants.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 MG Road, Bhopal, MP</p>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FoodyAnts. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="script.js"></script>
+    
++</body>
++</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodyAnts - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span>FoodyAnts</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Menu Hero Section -->
+    <div class="page-hero menu-hero">
+        <div class="page-hero-content">
+            <h1>Our Menu</h1>
+            <p>Culinary creations that delight your senses</p>
+        </div>
+    </div>
+
+    <!-- Menu Navigation -->
+    <div class="menu-navigation">
+        <div class="container">
+            <ul class="menu-nav-tabs">
+                <li class="active" data-target="starters">Starters</li>
+                <li data-target="mains">Main Course</li>
+                <li data-target="signature">Signature Dishes</li>
+                <li data-target="desserts">Desserts</li>
+                <li data-target="beverages">Beverages</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Menu Content -->
+    <section class="menu-content">
+        <div class="container">
+            <!-- Starters -->
+            <div id="starters" class="menu-category active">
+                <div class="category-header">
+                    <h2>Starters</h2>
+                    <p>Begin your culinary journey with these delectable appetizers</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Crispy Vegetable Spring Rolls</h3>
+                            <span class="price">₹199</span>
+                        </div>
+                        <p class="description">Hand-rolled spring rolls filled with julienned vegetables and served with sweet chili sauce</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Paneer Tikka</h3>
+                            <span class="price">₹249</span>
+                        </div>
+                        <p class="description">Marinated cottage cheese cubes grilled to perfection in a tandoor with bell peppers and onions</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Chili Garlic Prawns</h3>
+                            <span class="price">₹349</span>
+                        </div>
+                        <p class="description">Tiger prawns stir-fried with garlic, red chili, and spring onions, served with lemon wedges</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                            <span class="spicy"><i class="fas fa-pepper-hot"></i> Spicy</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Mushroom Bruschetta</h3>
+                            <span class="price">₹229</span>
+                        </div>
+                        <p class="description">Garlic-rubbed sourdough toast topped with sautéed wild mushrooms, truffle oil, and fresh herbs</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Chicken Tikka</h3>
+                            <span class="price">₹279</span>
+                        </div>
+                        <p class="description">Tender pieces of chicken marinated in yogurt and spices, grilled in tandoor</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Papdi Chaat</h3>
+                            <span class="price">₹189</span>
+                        </div>
+                        <p class="description">Crispy flour crackers topped with potatoes, chickpeas, yogurt, and tangy chutneys</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Course -->
+            <div id="mains" class="menu-category">
+                <div class="category-header">
+                    <h2>Main Course</h2>
+                    <p>Hearty and satisfying dishes full of flavor</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Butter Chicken</h3>
+                            <span class="price">₹349</span>
+                        </div>
+                        <p class="description">Tender chicken pieces in a rich tomato and butter gravy, flavored with fenugreek leaves</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Paneer Butter Masala</h3>
+                            <span class="price">₹299</span>
+                        </div>
+                        <p class="description">Cottage cheese cubes in a creamy tomato gravy with ginger, garlic, and Indian spices</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Classic Margherita Pizza</h3>
+                            <span class="price">₹399</span>
+                        </div>
+                        <p class="description">Wood-fired thin crust topped with San Marzano tomato sauce, fresh mozzarella, and basil</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Grilled Salmon</h3>
+                            <span class="price">₹549</span>
+                        </div>
+                        <p class="description">Norwegian salmon fillet served with lemon butter sauce, asparagus, and herb-roasted potatoes</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-fish"></i> Seafood</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Dal Makhani</h3>
+                            <span class="price">₹249</span>
+                        </div>
+                        <p class="description">Black lentils slow-cooked overnight with tomatoes, cream, and butter</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Lamb Biryani</h3>
+                            <span class="price">₹399</span>
+                        </div>
+                        <p class="description">Fragrant basmati rice layered with tender lamb pieces and aromatic spices, served with raita</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                            <span class="spicy"><i class="fas fa-pepper-hot"></i> Spicy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Signature Dishes -->
+            <div id="signature" class="menu-category">
+                <div class="category-header">
+                    <h2>Signature Dishes</h2>
+                    <p>Chef's special creations that define our culinary expertise</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item signature-item">
+                        <div class="menu-item-header">
+                            <h3>Tandoori Mushroom Risotto</h3>
+                            <span class="price">₹349</span>
+                        </div>
+                        <p class="description">Italian arborio rice cooked with tandoori-spiced mushrooms, finished with parmesan</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                            <span class="chef-special"><i class="fas fa-star"></i> Chef's Special</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item signature-item">
+                        <div class="menu-item-header">
+                            <h3>Truffle Butter Chicken</h3>
+                            <span class="price">₹499</span>
+                        </div>
+                        <p class="description">Our famous butter chicken elevated with imported truffle oil and cream</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                            <span class="chef-special"><i class="fas fa-star"></i> Chef's Special</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item signature-item">
+                        <div class="menu-item-header">
+                            <h3>Kerala Coconut Fish Curry</h3>
+                            <span class="price">₹449</span>
+                        </div>
+                        <p class="description">Fresh sea bass in a fragrant coconut milk curry with curry leaves and mustard seeds</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-fish"></i> Seafood</span>
+                            <span class="chef-special"><i class="fas fa-star"></i> Chef's Special</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item signature-item">
+                        <div class="menu-item-header">
+                            <h3>Quinoa Stuffed Bell Peppers</h3>
+                            <span class="price">₹329</span>
+                        </div>
+                        <p class="description">Colorful bell peppers filled with spiced quinoa, vegetables, and feta cheese</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                            <span class="chef-special"><i class="fas fa-star"></i> Chef's Special</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Desserts -->
+            <div id="desserts" class="menu-category">
+                <div class="category-header">
+                    <h2>Desserts</h2>
+                    <p>Sweet endings to a perfect meal</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Mango Tango Cheesecake</h3>
+                            <span class="price">₹299</span>
+                        </div>
+                        <p class="description">Creamy cheesecake with layers of fresh mango pulp on a crunchy biscuit base</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                            <span class="seasonal"><i class="fas fa-calendar-alt"></i> Seasonal</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Chocolate Lava Cake</h3>
+                            <span class="price">₹279</span>
+                        </div>
+                        <p class="description">Warm chocolate cake with a molten center, served with vanilla ice cream</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Saffron Pistachio Kulfi</h3>
+                            <span class="price">₹219</span>
+                        </div>
+                        <p class="description">Traditional Indian ice cream infused with saffron and crushed pistachios</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Tiramisu</h3>
+                            <span class="price">₹249</span>
+                        </div>
+                        <p class="description">Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Beverages -->
+            <div id="beverages" class="menu-category">
+                <div class="category-header">
+                    <h2>Beverages</h2>
+                    <p>Refreshing drinks to complement your meal</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Fresh Lime Soda</h3>
+                            <span class="price">₹99</span>
+                        </div>
+                        <p class="description">Refreshing homemade lime soda, available sweet, salty, or mixed</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Mango Lassi</h3>
+                            <span class="price">₹129</span>
+                        </div>
+                        <p class="description">Thick yogurt drink blended with fresh mango pulp and a hint of cardamom</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Masala Chai</h3>
+                            <span class="price">₹89</span>
+                        </div>
+                        <p class="description">Traditional Indian spiced tea with ginger, cardamom, and other aromatic spices</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Rose & Mint Mojito</h3>
+                            <span class="price">₹149</span>
+                        </div>
+                        <p class="description">Refreshing mocktail with mint leaves, rose syrup, lime juice, and soda</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Fresh Fruit Juice</h3>
+                            <span class="price">₹119</span>
+                        </div>
+                        <p class="description">Choice of seasonal fruits freshly juiced (orange, watermelon, pineapple, or mixed)</p>
+                        <div class="dietary-info">
+                            <span class="seasonal"><i class="fas fa-calendar-alt"></i> Seasonal Options</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Filter Coffee</h3>
+                            <span class="price">₹109</span>
+                        </div>
+                        <p class="description">South Indian style strong brewed coffee served with hot milk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Dietary Needs -->
+    <section class="dietary-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Special Dietary Requirements</h2>
+                <p>Your comfort is our priority</p>
+            </div>
+            
+            <div class="dietary-info-content">
+                <p>At FoodyAnts, we believe everyone should enjoy a delicious meal regardless of dietary restrictions. If you have specific allergies or dietary requirements, please inform our staff, and our chefs will be happy to accommodate your needs.</p>
+                
+                <div class="dietary-options">
+                    <div class="dietary-option">
+                        <i class="fas fa-seedling"></i>
+                        <span>Vegan options available</span>
+                    </div>
+                    
+                    <div class="dietary-option">
+                        <i class="fas fa-bread-slice"></i>
+                        <span>Gluten-free alternatives</span>
+                    </div>
+                    
+                    <div class="dietary-option">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <span>Nut-free preparation on request</span>
+                    </div>
+                    
+                    <div class="dietary-option">
+                        <i class="fas fa-fire-alt"></i>
+                        <span>Spice level adjustable</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef's Note -->
+    <section class="chefs-note">
+        <div class="container">
+            <div class="note-content">
+                <h2>A Note from Chef Rahul</h2>
+                <p>"Our menu is a reflection of my culinary journey across continents, bringing together the finest techniques and flavors from around the world while celebrating the rich heritage of Indian cuisine. We source our ingredients locally whenever possible and prepare everything fresh daily. Each dish tells a story, and I hope you enjoy the narrative as much as the flavors. Bon appétit!"</p>
+                <img src="/api/placeholder/150/150" alt="Chef Rahul Signature" class="chef-signature">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>FoodyAnts</h2>
+                <p>Taste Once, Remember Forever</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                <p><i class="fas fa-envelope"></i> contact@foodyants.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 MG Road, Bhopal, MP</p>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FoodyAnts. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
